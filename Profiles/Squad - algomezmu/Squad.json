@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Release All Keys",
+    "triggers": [],
+    "key_sequence": [],
+    "confirmation": "All keys released.",
+    "enabled": true
+  },
+  {
+    "name": "Auto andar corriendo",
+    "triggers": [],
+    "key_sequence": [
+      {
+        "key": "w",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": true
+      },
+      {
+        "key": "v",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": true
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  },
+  {
+    "name": "Andar",
+    "triggers": [],
+    "key_sequence": [
+      {
+        "key": "w",
+        "modifiers": [],
+        "delay_before": 0.0,
+        "delay_after": 0.05,
+        "hold": false,
+        "hold_duration": 0.5,
+        "hold_infinite": false
+      }
+    ],
+    "confirmation": "",
+    "enabled": true
+  }
+]
