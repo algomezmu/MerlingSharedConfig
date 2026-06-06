@@ -1,0 +1,42 @@
+[
+  {
+    "id": "squad",
+    "name": "Squad",
+    "icon": "🪖",
+    "buttons": [
+      {
+        "label": "RELEAS\nALL\nKEYS",
+        "group": "Parar",
+        "command": "Release All Keys",
+        "color": "cyan"
+      },
+      {
+        "label": "AUTO\nANDAR\nCORRER",
+        "group": "Commands",
+        "command": "Auto andar corriendo",
+        "color": "orange"
+      },
+      {
+        "label": "ANDAR",
+        "group": "Commands",
+        "command": "Andar",
+        "color": "blue"
+      }
+    ],
+    "bg_style": "military",
+    "layout": [
+      {
+        "type": "columns",
+        "groups": [
+          "Commands"
+        ]
+      },
+      {
+        "type": "row",
+        "groups": [
+          "Parar"
+        ]
+      }
+    ]
+  }
+]
